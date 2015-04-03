@@ -1,0 +1,41 @@
+/*Stylesheet*/
+*, html{
+	margin: 0;
+	padding: 0;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+tr, td{
+	text-align: center;
+}
+.noborder{
+	border-bottom: none;
+}
+tr.min td{
+	font-size: 10px;
+}
+tr.min th{
+	font-size: 10px;
+}
+
+
+tr.min th, tr.min td{
+	padding: 5px;
+}
+
+.myfixed2 { 
+	position: fixed;
+overflow: auto;
+right: 0;
+bottom: 0mm;
+width: 65mm;
+border: 1px solid #880000;
+background-color: #FFEEDD;
+background-gradient: linear #dec7cd #fff0f2 0 1 0 0.5;
+padding: 0.5em;
+font-family:sans;
+margin: 0;
+rotate: 90;
+}

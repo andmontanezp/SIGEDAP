@@ -1,0 +1,104 @@
+.ui-autocomplete {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  float: left;
+  display: none;
+  min-width: 160px;
+  _width: 160px;
+  padding: 4px 0;
+  margin: 2px 0 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border-color: #ccc;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+
+  .ui-menu-item > a.ui-corner-all {
+    display: block;
+    padding: 3px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 18px;
+    color: #555555;
+    white-space: nowrap;
+  }
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+   border: 1px solid #8bd83b;
+   background: #47ca26 url("images/ui-bg_highlight-soft_50_4eb305_1x100.png") 50% 50% repeat-x;
+   font-weight: bold;
+   color: #ffffff;
+}
+body{
+   padding-top: 60px;
+   padding-bottom: 40px;
+}
+.sidebar-nav{
+   padding: 9px 0;
+}
+@media(min-width:1200px){
+   body{
+      padding-top: 60px;
+      padding-bottom: 40px;
+   }  
+}
+@media(min-width: 768px) and (max-width:992px){
+   body{
+      padding-top: 60px;
+      padding-bottom: 40px;
+   }
+   .jumbotron h1{
+      font-size: 2em;
+   }
+}
+@media(max-width:767px){
+   body{
+      padding-top: 60px;
+      padding-bottom: 40px;
+   }
+   .jumbotron h1{
+      font-size: 2em;
+   }
+}
+@media(max-width:480px){
+   body{
+      padding-top: 60px;
+      padding-bottom: 40px;
+   }
+   .jumbotron h1{
+      font-size: 2em;
+   }  
+}
+
+.center-block {
+  text-align: center;
+}
+
+.advertisement{
+   font-size: 14px;
+   color: red;
+}
+
+.not-active {
+   pointer-events: none;
+   cursor: default;
+}
